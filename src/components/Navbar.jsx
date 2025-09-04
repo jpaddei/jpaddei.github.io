@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <div className="flex gap-6">
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
-                    <a href="src/documents/Phillip_Addei_resume.pdf">Resume</a>
+                    <a href="https://jpaddei.github.io/src/documents/Phillip_Addei_resume.pdf">Resume</a>
                     <a href="https://github.com/jpaddei">GitHub</a>
                     <a href="https://www.linkedin.com/in/phillipaddei/">LinkedIn</a>
                 </div>

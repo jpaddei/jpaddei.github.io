@@ -58,6 +58,7 @@ export const Home = () => {
                             <div>
                                 <h3 className="text-2xl mb-6">Other</h3>
                                 <ul className="mb-6 list-disc list-inside bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200">
+                                    <li>Linux</li>
                                     <li>Git</li>
                                     <li>Docker</li>
                                     <li>RESTful APIs</li>
