@@ -85,35 +85,43 @@ export const Home = () => {
                     <div id="projects" className="scroll-mt-16 mt-16">
                         <h1 className="text-4xl mb-6 text-center">Projects</h1>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200">
-                                <h1 className="text-xl font-bold">CFB Schedule</h1>
-                                <h2>Full-stack web application providing NCAA college football schedules, scores, stats, and more</h2>
-                                <h3 className="text-gray-500 font-light mb-4">React, Tailwind CSS, JavaScript, Python, Node.js, Express.js, MongoDB</h3>
+                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200 flex flex-col justify-between">
+                                <div>
+                                    <h1 className="text-xl font-bold">CFB Schedule</h1>
+                                    <h2>Full-stack web application providing NCAA college football schedules, scores, stats, and more</h2>
+                                    <h3 className="text-gray-500 font-light mb-4">React, Tailwind CSS, JavaScript, Python, Node.js, Express.js, MongoDB</h3>
+                                </div>
                                 <div className="flex flex-row gap-2">
                                     <a className="px-2 py-2 bg-blue-500/100 text-white border rounded shadow-sm hover:bg-blue-500/70 hover:-translate-y-0.5 hover:shadow-lg duration-300" href="https://cfb-schedule.onrender.com/">Website</a>
                                     <a className="px-2 py-2 bg-black/100 text-white border rounded shadow-sm hover:bg-black/70 hover:-translate-y-0.5 hover:shadow-lg duration-300" href="https://github.com/jpaddei/cfb-schedule">GitHub</a>
                                 </div>
                             </div>
-                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200">
-                                <h1 className="text-xl font-bold">Wordle Solver</h1>
-                                <h2>Solves a Wordle puzzle on an automated browser</h2>
-                                <h3 className="text-gray-500 font-light mb-4">Python</h3>
+                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200 flex flex-col justify-between">
+                                <div>
+                                    <h1 className="text-xl font-bold">Wordle Solver</h1>
+                                    <h2>Solves a Wordle puzzle on an automated browser</h2>
+                                    <h3 className="text-gray-500 font-light mb-4">Python</h3>
+                                </div>
                                 <div className="flex flex-row gap-2">
                                     <a className="px-2 py-2 bg-black/100 text-white border rounded shadow-sm hover:bg-black/70 hover:-translate-y-0.5 hover:shadow-lg duration-300" href="https://github.com/jpaddei/Wordle-Solver">GitHub</a>
                                 </div>
                             </div>
-                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200">
-                                <h1 className="text-xl font-bold">Run Journey</h1>
-                                <h2>Workout Plan checklist for the mile, Couch to 5k, and Couch to 10k plans. Made for ITP-342.</h2>
-                                <h3 className="text-gray-500 font-light mb-4">Swift</h3>
+                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200 flex flex-col justify-between">
+                                <div>
+                                    <h1 className="text-xl font-bold">Run Journey</h1>
+                                    <h2>Workout Plan checklist for the mile, Couch to 5k, and Couch to 10k plans. Made for ITP-342.</h2>
+                                    <h3 className="text-gray-500 font-light mb-4">Swift</h3>
+                                </div>
                                 <div className="flex flex-row gap-2">
                                     <a className="px-2 py-2 bg-black/100 text-white border rounded shadow-sm hover:bg-black/70 hover:-translate-y-0.5 hover:shadow-lg duration-300" href="https://github.com/jpaddei/RunJourney">GitHub</a>
                                 </div>
                             </div>
-                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200">
-                                <h1 className="text-xl font-bold">Burger Haven</h1>
-                                <h2>Mobile ordering app for a generic fast food restaurant that allows customers to place orders online. Made for ITP-368.</h2>
-                                <h3 className="text-gray-500 font-light mb-4">Dart, Flutter, Android Studio</h3>
+                            <div className="mb-6 bg-white/30 p-4 rounded-lg shadow-sm hover:-translate-y-1 hover:shadow-lg text-start duration-200 flex flex-col justify-between">
+                                <div>
+                                    <h1 className="text-xl font-bold">Burger Haven</h1>
+                                    <h2>Mobile ordering app for a generic fast food restaurant that allows customers to place orders online. Made for ITP-368.</h2>
+                                    <h3 className="text-gray-500 font-light mb-4">Dart, Flutter, Android Studio</h3>
+                                </div>
                                 <div className="flex flex-row gap-2">
                                     <a className="px-2 py-2 bg-black/100 text-white border rounded shadow-sm hover:bg-black/70 hover:-translate-y-0.5 hover:shadow-lg duration-300" href="https://github.com/jpaddei/FastFood">GitHub</a>
                                 </div>
